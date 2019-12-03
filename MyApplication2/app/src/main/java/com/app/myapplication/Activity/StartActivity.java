@@ -55,14 +55,14 @@ public class StartActivity extends AppCompatActivity
         try {
             if (setting.getPosition() == 1) {
 
-                Log.d("Start", "Fragment One");
+         //       Log.d("Start", "Fragment One");
                 setting.setPosition(1);
                 openFragmentOne();
 
             } else {
 
                 setting.setPosition(2);
-                Log.d("Start", "Fragment Tow");
+          //      Log.d("Start", "Fragment Tow");
                 setTitle(getResources().getString(R.string.description_title));
                 openFragmentTow(0);
             }
